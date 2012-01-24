@@ -16,3 +16,4 @@ end
 get '/bookmarklet' do
   File.read('bookmarklet.html')
 end
+

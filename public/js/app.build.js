@@ -12,17 +12,17 @@ var requirejs = require('./r.js');
 //Set up basic config, include config that is
 //common to all the requirejs.optimize() calls.
 var basConfig = {
-	baseUrl: "public/js",
-	locale: "en-us",
-	optimize: "uglify",
+	baseUrl: 	"public/js",
+	locale: 	"en-us",
+	optimize: 	"uglify",
 	//optimize: "none",   // If you need to debug the compiled script
 	//namespace: "test",  // If using Almond then no need to namespace
 	wrap: true,
 	paths: {
-		'jquery': 'libs/jquery/jquery',
-		'underscore': 'libs/underscore/underscore',
-		'backbone': 'libs/backbone/backbone',
-		'templates': '../templates'
+		'jquery': 		'libs/jquery/jquery',
+		'underscore': 	'libs/underscore/underscore',
+		'backbone': 	'libs/backbone/backbone',
+		'templates': 	'../templates'
 	},
 
 	//All the built layers will use almond.
