@@ -3,7 +3,7 @@
 
 Backpack is a boilerplate project for personal Backbone.js projects which includes some common items I use in my setup. It is based on a fork of jbasdf's Backbone.js template.
 
-Included in the backpack are:
+###Included in the backpack are:
 =============================
 
 * Backbone.js (AMD patched)
@@ -18,12 +18,12 @@ Included in the backpack are:
 * Jasmine for BDD testing
 
 
-Summary
+###Summary
 ===========
 
 The build process will run the application through r.js, replacing require.js with almond.js in production. Information about how the project is built can be found in the app.build.js file in ```public\js```. 
 
-Building
+###Building
 ===========
 
 If you have node installed, the project can be built by running:
@@ -32,7 +32,7 @@ If you have node installed, the project can be built by running:
 If you would prefer a rake task that completes this task, try:
 ```rake build```
 
-Using the project
+###Using the project
 ===================
 
 The backpack comes with a Sinatra application for serving up assets. You'll need both [ruby](http://www.ruby-lang.org/en/downloads/) and bundler installed in order to run this. To get bundler, simply run:
@@ -49,7 +49,7 @@ http://localhost:4567
 http://localhost:4567/dev
 http://localhost:4567/jquery Demonstrates how require can prefer the jQuery version loaded in the page to the one defined in the current project
 
-Patched AMD Backbone and Underscore builds
+###Patched AMD Backbone and Underscore builds
 ===========================================
 
 Backpack already contains patched AMD-compatible versions of Backbone.js and Underscore.js but if wish to grab the latest patched versions of these libraries they can be accessed from:
