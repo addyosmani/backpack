@@ -27,27 +27,27 @@ Building
 ===========
 
 If you have node installed, the project can be built by running:
-```node public/js/app.build.js```
+  node public/js/app.build.js
 
 If you would prefer a rake task that completes this task, try:
-```rake build```
+  rake build
 
 Using the project
 ===================
 
 The backpack comes with a Sinatra application for serving up assets. You'll need both [ruby](http://www.ruby-lang.org/en/downloads/) and bundler installed in order to run this. To get bundler, simply run:
 
-```gem install bundler```
+  gem install bundler
  
 Follow the instructions at the ruby link above to download and install that dependency. The project can then be run using:
 
-```ruby app.rb```
+  ruby app.rb
 
-This will give you the ability to access three URLs:
+ This will give you the ability to access three URLs:
 
 http://localhost:4567  
 http://localhost:4567/dev
-http://localhost:4567/jquery Demonstrates how require can prefer the jQuery version loaded in the page to the one defined in the current project
+http://localhost:4567/jquery <-- this file demonstrates how currently require.js will prefer the jquery loaded in the page to the one explicitly defined in the project. 
 
 Patched AMD Backbone and Underscore builds
 ===========================================
